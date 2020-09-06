@@ -13,6 +13,9 @@ import pymysql
 import config
 from sqlalchemy import create_engine
 import user_functions as ufs
+#to run the server
+#from flask import Flask
+#app = Flask(__name__)
 
 headers = {"user-agent": config.USER_AGENT}
 #resp = requests.get(URL, headers=headers)
@@ -51,8 +54,9 @@ async def on_message(message):
     elif message.author!=client.user:
         await message.channel.send(f'Please choose options carefully 1. type hi, 2. type a search string followed by !google')
 
-#to run the server
-client.run(config.DISCORD_TOKEN)
+
+if __name__=="__main__":
+    client.run(config.DISCORD_TOKEN)
 
 
 
