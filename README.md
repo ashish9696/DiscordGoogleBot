@@ -8,4 +8,6 @@ This application supports the [Getting Started with Python on Heroku](https://de
 
 Make sure you have Python 3.6 [installed locally](http://install.python-guide.org). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
+Please replace variables with values before using this code in config.py
+
 
