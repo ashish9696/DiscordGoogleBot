@@ -1,0 +1,9 @@
+discord
+requests
+pymysql
+pandas==1.0.5
+urllib3
+requests
+bs4 
+pymysql
+sqlalchemy 
